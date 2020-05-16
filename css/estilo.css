@@ -35,7 +35,7 @@ a:hover{
 
 /*******
 Navegação Vertical com segunda forma de marcação
-*/
+
 ul{
     padding: 0;
     margin: 0;
@@ -67,4 +67,54 @@ a:hover{
 {
     color: #2727C9;
     background-color: #fff;
+}*/
+
+
+/*******
+Navegação Horizontal com segunda forma de marcação*/
+
+ul{
+    margin: 0;
+    padding: 0;
+    width: 564px;
+    background: #2727C9;
+    float: left;
+    list-style-type: none;
+}
+
+ul li{
+    float: left;
+}
+
+ul a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 2em;
+    line-height: 2.3em;
+    border-left: 1px solid #000;
+}
+
+/* Pra tirar a borda do primeiro link,
+no caso o home*/
+ul .primeiro a{
+    border: none;
+}
+
+ul a:hover{
+    color: #2727C9;
+    background: #fff;
+}
+
+/* Nós podemos deixar muito mais especifíco,
+todo site existe vários menus,
+podemos colocar id para cada um deles.
+*/
+#home .home a,
+#sobre .sobre a,
+#servicos .servicos a,
+#opinioes .opinioes a,
+#contato .contato a{
+    color: #2727C9;
+    background: #fff;
 }
