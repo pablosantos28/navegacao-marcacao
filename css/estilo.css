@@ -1,6 +1,6 @@
 /*******
 Navegação Vertical com primeira forma de marcação
-*/
+*
 ul{
     padding: 0;
     margin: 0;
@@ -25,6 +25,46 @@ a:hover{
 }
 
 .selecionar a{
+    color: #2727C9;
+    background-color: #fff;
+}
+*/
+
+
+
+
+/*******
+Navegação Vertical com segunda forma de marcação
+*/
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li a {
+    width: 200px;
+    display: block;
+    text-indent: 5px;
+    line-height: 30px;
+    margin: 2px;
+    border: 1px solid blue;
+    text-decoration: none;
+    background-color: #2727C9;
+    color: #fff;
+}
+
+a:hover{
+    color: #2727C9;
+    background-color: #fff;
+}
+
+#home .home a,
+#sobre .sobre a,
+#servicos .servicos a,
+#opinioes .opinioes a,
+#contato .contato a
+{
     color: #2727C9;
     background-color: #fff;
 }
